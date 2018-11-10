@@ -34,7 +34,7 @@ class App extends Component {
                 <BasicPopup
                   btnText="Companies I've worked with"
                   title="Proud to consult with..."
-                  text="Minority Veterans of America, Blackwood Housekeeping, JENIE.com, Veteran Mentor Network, Sitecast.com"
+                  text="Minority Veterans of America, Blackwood Housekeeping, JENIE.com, Veteran Mentor Network, Sitecast.com, Shadowcreek Software, WizFish Studios"
                   confirmButtonText="Outsanding!"
                 />
                 <BasicPopup
