@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import SweetAlert from 'sweetalert2-react';
 import { Button } from 'mdbreact';
 
-
 class BasicPopup extends Component {
   
   constructor(props) {

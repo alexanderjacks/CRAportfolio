@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import anime from 'animejs';
 import './App.css';
 
 import Projects from './Projects';

@@ -12,14 +12,14 @@
   font-size: calc(14px + 2vmin);
   margin: 1.2rem;
 }
+a {
+  color: navy;
+}
 .img-shield {
   margin: 1rem;
 }
 .card-buffer {
   margin: 2rem;
-}
-a {
-  color: navy;
 }
 .important {
   min-width: 80%;
