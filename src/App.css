@@ -9,9 +9,21 @@
   font-size: calc(12px + 2vmin);
 }
 .App-header {
+  color: snow;
   font-size: calc(14px + 2vmin);
-  margin: 1.2rem;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
 }
+
+.verakatz {
+  background-image: url(verakatz.png);
+}
+
+.heavy-awesome-text {
+  font-size: calc(28px + 3vmin);
+}
+
 a {
   color: navy;
 }

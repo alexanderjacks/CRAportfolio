@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.2.0",
+    "@progress/kendo-drawing": "^1.5.7",
+    "@progress/kendo-react-pdf": "^2.3.2",
     "ajv": "^6.0.0",
     "animejs": "^2.2.0",
     "mdbreact": "^4.8.2",
