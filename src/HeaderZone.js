@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Spring, config } from 'react-spring';
+
 import BasicPopup from './BasicPopup';
 import SocialLinks from './SocialLinks';
 import EnvelopeIcon from './EnvelopeIcon';
@@ -6,7 +8,14 @@ import EnvelopeIcon from './EnvelopeIcon';
 class HeaderZone extends Component {
 	render() {
 		return (
-			<header className="App-header verakatz container-fluid">
+			<Spring 
+		        from={{ opacity: 0, marginTop: -1000  }} 
+		        to={{ opacity: 1, marginTop: 0  }}
+		        delay='100'
+		        config={ config.molasses }
+		    >
+          	{ props => (
+			<header className="App-header verakatz container-fluid" style={ props }>
 	          <div className="row d-flex align-items-center">
 		        <div className="">
 		          	<h1 class="heavy-awesome-text animated slideInDown slower">
@@ -51,6 +60,8 @@ class HeaderZone extends Component {
 	          </div>
 
         	</header>
+        	)}
+		</Spring>
 		)
 	}
 }

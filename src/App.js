@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import HeaderZone from './HeaderZone';
 import Projects from './Projects';
-import BasicPopup from './BasicPopup';
 import SocialLinks from './SocialLinks';
 
 import './App.css';
