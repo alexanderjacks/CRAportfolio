@@ -25,8 +25,18 @@
 }
 
 a {
-  color: navy;
+  color: #2bbbad;
 }
+a:hover{
+  color: #a6c;
+}
+.social-links { 
+  color: darkorange;
+}
+.social-links:hover{
+  color: #a6c;
+}
+
 .img-shield {
   margin: 1rem;
 }

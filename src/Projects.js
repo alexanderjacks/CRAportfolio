@@ -14,7 +14,7 @@ const projectList = projects.map((project) =>
 	<Card key={project.key} className="my-4 py-2 card-buffer">
 		{/* large screencap of project*/}
 		<div className="img-shield">
-			<CardImage className="img-fluid" src={project.screen} />
+			<CardImage className="img-fluid mx-auto" src={project.screen} />
 		</div>
 		<CardBody className="pink-accent">
 			{/* begin text */}
