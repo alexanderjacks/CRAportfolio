@@ -23,7 +23,7 @@ class HeaderZone extends Component {
 		          	<h1 class="heavy-awesome-text">
 		            	Alexander Jacks
 		          	</h1>
-	          		<img src="images/avatar.png" className="phiz rounded" />
+	          		<img src="images/avatar.png" className="phiz rounded" alt="a small profile of site author Alexander Jacks, who encourages you to drink more kombucha"/>
 	          		<SocialLinks />
 	          	</MDBCol>
 	          	<MDBCol  md="6" lg="12" >
@@ -48,7 +48,9 @@ class HeaderZone extends Component {
 	                  btnText="More about Alex"
 	                  btnColor="secondary"
 	                  title="My Journey in Tech, in Brief"
-	                  text="I built my first website in 1997, and figured out how to host it on the local ISP after I read enough BBS posts about <strong><em>FTP</em></strong> clients. I decided I wanted to do this professionally, so I finished a web programming course in NYC and learned enough to build my own <strong><em>GUI</em></strong> in <strong><em>Java</em></strong>! But life had other plans and witnessing 9/11 steered me into enlisting in the military instead of finding work as a programmer. Several lifetimes later, I realized I missed designing user experiences so I finished another code school (this time in Portland, Oregon) and learned how to work with current JS frameworks like <strong><em>React</em></strong>, <strong><em>Vue</em></strong>, <strong><em>Angular</em></strong>, (even <strong><em>Ember</em></strong>, in theory!) and how to leverage tools like <strong><em>Github</em></strong>, <strong><em>Bootstrap</em></strong>, <strong><em>Sass</em></strong>, <strong><em>FontAwesome</em></strong>, and more. I've been consulting as a web developer since 2015 (before code school, even) and am searching for a full time role in the Portland, Oregon area so I can supercharge my front-end learnings with some mentorship and <strong><em>Agile dev</em></strong>. Right now I'm volunteering with Code4PDX which is tuning me in to team development practices, and I'm also volunteering to build a site for Minority Veterans of America, which is helping me learn the <strong><em>Agile</em></strong> methodology and become comfy doing code reviews and PRs on <strong><em>Github</em></strong>. Thanks for reading all of this!</p>"
+	                  text="I built my first website in 1997 (HTML3?) and hosted it on the local ISP. I decided I wanted to do this professionally so I completed a web programming course in NYC and learned enough to build my own <strong><em>GUI</em></strong> in <strong><em>Java</em></strong>! But life had other plans and I enlisted in the military before finding work as a programmer.<br/>
+	                  Several lifetimes later, I still missed designing user experiences so I finished another code school (this time in 2017, in Portland, Oregon) and learned how to build with current JS frameworks like <strong><em>React</em></strong>, and <strong><em>Angular</em></strong>, and to leverage tools like <strong><em>npm</em></strong>, <strong><em>Sketch</em></strong>, <strong><em>Sass</em></strong> and more. I've been consulting as a web developer since 2015 and am searching for a full time role in the Portland, Oregon area so I can supercharge my front-end learnings with some mentorship and <strong><em>Agile dev</em></strong>. Currently I'm volunteering my time with Minority Veterans of America and Code4PDX which is helping me become comfy doing code reviews and PRs on <strong><em>Github</em></strong>.<br/>
+	                  Thanks for reading all of this!</p>"
 	                  confirmButtonText="Right on! ✌️"
 	                />
 	            	</MDBCol>

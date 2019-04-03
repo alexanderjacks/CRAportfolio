@@ -20,10 +20,10 @@ class App extends Component {
           <SocialLinks />
           <p className="text-white">
             Alexander Jacks© 2019 -
-             Portland<span> (🍩🌉)</span>,
-              Oregon<span> (🌲🌊)</span>,
-              Cascadia<span> (🌧🌈)</span>,
-              USA<span> (🇺🇸)</span>
+             Portland (<span role="img" aria-label="">🍩</span><span role="img" aria-label="">🌉</span>),
+              Oregon (<span role="img" aria-label="">🌲</span><span role="img" aria-label="">🌊</span>),
+              Cascadia (<span role="img" aria-label="">🌧</span><span role="img" aria-label="">🌈</span>),
+              USA (<span role="img" aria-label="">🇺🇸</span>)
           </p>
         </footer>
       </div>
