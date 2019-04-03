@@ -14,11 +14,16 @@ class App extends Component {
         
         <HeaderZone/>
         
-        <Projects/>
+        <Projects id="projects"/>
         
-        <footer className="important my-3">
+        <footer className="important my-3 mx-1">
           <SocialLinks />
-          <p className="text-white">Copyright Alexander Jacks, 2018
+          <p className="text-white">
+            Alexander Jacks© 2019 -
+             Portland<span> (🍩🌉)</span>,
+              Oregon<span> (🌲🌊)</span>,
+              Cascadia<span> (🌧🌈)</span>,
+              USA<span> (🇺🇸)</span>
           </p>
         </footer>
       </div>
